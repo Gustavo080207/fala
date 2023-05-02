@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(121, 15, 241);
+    color: rgb(0, 0, 0);
+}
+
+header{
+    background-color: rgb(203, 227, 250);
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+main{
+    text-align: center;
+    align-items: center;
+}
+
+textarea{
+border: 2px solid black;
+
+border-radius: 5px;
+padding: 10px;
+font-size: 17px;
+color: rgb(0, 174, 255);
+width: 300px;
+height: 100px;
+outline: 0;
+}
+
+select, button{
+display: block;
+width: 300px;
+border: 2px solid black;
+border-radius: 5px;
+padding: 10px;
+margin: 1opx auto;
+color: rgb(0, 0, 0);
+font-weight: bold;
+font-size: 17px;
+outline: 0;
+align-items: center;
+}
+
+option{
+    background-color: rgb(255, 255, 255)
+}
+
+select:disabled,
+button:disabled{
+opacity: .1;
+}
